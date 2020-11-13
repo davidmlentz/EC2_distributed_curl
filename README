@@ -1,3 +1,3 @@
-The launch_instances.sh script tests CloudFront logging by launching EC2s in multiple regions, each making staggered requests to a CloudFront distribution. 
+The launch_instances.sh script tests CloudFront logging by launching EC2s in multiple regions, each making staggered requests to a CloudFront distribution (or really any URL). 
 
 The userdata.sh script is added to each instance as userdata and contains the curl commands that send the requests.
